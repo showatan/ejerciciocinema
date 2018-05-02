@@ -4,54 +4,197 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shorcut icon" href="img/logo.ico">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
     <script src='js/bootstrap.min.js'></script>
-    <title>Bosstrap</title>
+    <title>Cinema tu cine</title>
 </head>
 <body class="cinema-body">
     <header>
-        <nav class="navbar navbar-inverse navbar-fixed-top affix-top"></nav>
+        <nav class="navbar navbar-inverse navbar-fixed-top affix-top"><img src="img/logo.png" alt="imagen logo" class="logo-img"></nav>
     </header>
-  <div class="container-fluid">
+ <div class="container-fluid">
         <div class="row">
-            <div class="jumbotron"></div>
-            <div class="titulo-cartelera"></div>
+            <div class="jumbotron">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 text-center">
+                        <h2 class="text-uppercase welcome-title">bienbenidos a</h2>
+                        <img src="img/logo.png" class="jumbotron-img" alt="logo">
+                        <div class="jumbotron-text">Síguenos en nuestras <abbr title="Facebook, Twitter, Instagram">redes sociales</abbr> para obtener información sobre los últimos estrenos del cine</div>
+                        <div class="redes-sociales">
+                            <img class="img-rounded img-social" src="img/fb.png" alt="Facebook">
+                            <img class="img-rounded img-social" src="img/tt.png" alt="Twitter">
+                            <img class="img-rounded img-social" src="img/ig.png" alt="Instagram">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="titulo-cartelera">
+                <header class="text-capitalize text-center titulo-text">peliculas en cartelera</header>
+            </div>
         </div>
         <div class="row movies-row">
-            <div class="text-center movies-column col-lg-2 col-md-2 col-sm-3 col-xs-3"></div>
-            <div class="text-center movies-column col-lg-2 col-md-2 col-sm-3 col-xs-3"></div>
-            <div class="text-center movies-column col-lg-2 col-md-2 col-sm-3 col-xs-3"></div>
-            <div class="text-center movies-column col-lg-2 col-md-2 col-sm-3 col-xs-3"></div>
-            <div class="rigth-column text-center movies-column col-lg-2 col-md-2 "></div>
-            <div class="rigth-column text-center movies-column col-lg-2 col-md-2 "></div>
+            <div class="text-center col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                <div class="row movie-title">
+                    <img class="img-movies" src="img/movie_1.jpg" alt="pelicula1">
+                </div>
+                <div class="row movie-title">
+                    Film Festival
+                </div>
+                <div class="row movie-title">
+                    Sala 1
+                </div>
+            </div>
+            <div class="text-center col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                <div class="row movie-title">
+                    <img class="img-movies" src="img/movie_2.jpg" alt="pelicula2">
+                </div>
+                <div class="row movie-title">
+                    El Atraco
+                </div>
+                <div class="row movie-title">
+                    Sala 2
+                </div>
+            </div>
+            <div class="text-center col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                <div class="row movie-title">
+                    <img class="img-movies" src="img/movie_3.jpg" alt="pelicula3">
+                </div>
+                <div class="row movie-title">
+                    Lorem
+                </div>
+                <div class="row movie-title">
+                    Sala 3
+                </div>
+            </div>
+            <div class="text-center  col-lg-2 col-md-2">
+                <div class="row movie-title">
+                    <img class="img-movies" src="img/movie_4.jpg" alt="pelicula3">
+                </div>
+                <div class="row movie-title">
+                    Los Pepers
+                </div>
+                <div class="row movie-title">
+                    Sala 4
+                </div>
+            </div>
+            <div class="rigth-column text-center  col-lg-2 col-md-2 ">
+                <div class="row movie-title">
+                    <img class="img-movies" src="img/movie_5.jpg" alt="pelicula5">
+                </div>
+                <div class="row movie-title">
+                    Roshstar
+                </div>
+                <div class="row movie-title">
+                    Sala 5
+                </div>
+            </div>
+            <div class="rigth-column text-center  col-lg-2 col-md-2 ">
+                <div class="row movie-title">
+                    <img class="img-movies" src="img/movie_6.jpg" alt="pelicula6">
+                </div>
+                <div class="row movie-title">
+                    The Amazing
+                </div>
+                <div class="row movie-title">
+                    Sala 6
+                </div>
+            </div>
         </div>
         <div class="row">
-            <div class="left-column titulo-cartelera col-lg-8 col-md-8 col-sm-12 col-xs-12"></div>
-            <div class="titulo-cartelera col-lg-4 col-md-4 rigth-column"></div>
+            <div class="left-column titulo-cartelera col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                <header class="text-capitalize text-center titulo-text">próximos estrenos</header>
+            </div>
+            <div class="titulo-cartelera col-lg-4 col-md-4 rigth-column">
+                <header class="text-capitalize text-center titulo-text">Mejor calificada</header>
+            </div>
         </div>
         <div class="row">
             <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 left-column movies-row">
-                <div class="movies-row row">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 movies-column text-center"></div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 movies-column text-center"></div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 movies-column text-center"></div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4  text-center">
+                        <div class="row movie-title">
+                            <img class="img-movies" src="img/movie_7.jpg" alt="pelicula7">
+                        </div>
+                        <div class="row movie-title">
+                            Los Insuperables
+                        </div>
+                        <div class="row movie-title">
+                            2018-3
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4  text-center">
+                        <div class="row movie-title">
+                            <img class="img-movies" src="img/movie_8.jpg" alt="pelicula8">
+                        </div>
+                        <div class="row movie-title">
+                            Rampage
+                        </div>
+                        <div class="row movie-title">
+                            2018-1
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4  text-center">
+                        <div class="row movie-title">
+                            <img class="img-movies" src="img/movie_9.jpg" alt="pelicula9">
+                        </div>
+                        <div class="row movie-title">
+                            Brain To Make
+                        </div>
+                        <div class="row movie-title">
+                            2017-3
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 movies-row text-center rigth-column">
-                <div class="row col-lg-12 col-md-12 movies-column text-center"></div>
+                <div class="row col-lg-12 col-md-12  text-center">
+                    <div class="row movie-title">
+                            <img class="img-movies" src="img/movie_1.jpg" alt="pelicula1">
+                        </div>
+                        <div class="row movie-title">
+                            Film Festival
+                        </div>
+                        <div class="row movie-title">
+                            Calificacion: 10/10
+                        </div>
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-6 col-md-6 titulo-cartelera left-column rigth-column"></div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 titulo-cartelera"></div>
+            <div class="col-lg-6 col-md-6 titulo-cartelera left-column rigth-column">
+                <header class="text-capitalize text-center titulo-text">Servicios</header>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 titulo-cartelera">
+                <header class="text-capitalize text-center titulo-text">Registrate</header>
+            </div>
         </div>
         <div class="row">
-            <div class="col-lg-6 col-md-6 left-column rigth-column movies-row"></div>
+            <div class="col-lg-6 col-md-6 left-column rigth-column movies-row">
+                <p class="service-text">En nuestro cine te ofrecemos los siguientes servicios para brindarte la mejor diversión y que disfrutes al máximo:    
+                </p>
+                <dl class="dl-horizontal">
+                    <dt class="service-text">Salas de cine</dt>
+                    <dd class="service-text">Las mejores salas de cine con la mejor tecnologia 3D, 4D &amp; Vibra Sound</dd>
+                </dl>
+                <dl class="dl-horizontal">
+                    <dt class="service-text">Juegos Electronicos</dt>
+                    <dd class="service-text">Gran variedad de juegos electronicos que te divertiran al maximo</dd>
+                </dl>
+                <dl class="dl-horizontal">    
+                    <dt class="service-text">Restaurantes</dt>
+                    <dd class="service-text">Gran variedad de comida y dulces para que disfrutes de algo rico, durante o despues de tu pelicula</dd>
+                </dl>
+                <h2 class="text-center text-uppercase welcome-title">
+                        ¡te esperamos!
+                </h2>
+            </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 movies-row"></div>
         </div>
 
-    </div>
+    </div> 
     
 </body>
 </html>
