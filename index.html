@@ -172,7 +172,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-6 col-md-6 left-column rigth-column movies-row">
+            <div class="col-lg-6 col-md-6 left-column rigth-column text-justify movies-row-last">
                 <p class="service-text">En nuestro cine te ofrecemos los siguientes servicios para brindarte la mejor diversión y que disfrutes al máximo:    
                 </p>
                 <dl class="dl-horizontal">
@@ -191,7 +191,42 @@
                         ¡te esperamos!
                 </h2>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 movies-row"></div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 movies-row-last">
+                <form role="form">
+                    <fieldset>
+                        <div class="form-group text-center">
+                            <legend class="user-data">Datos Personales</legend>
+                            <input type="text" id="nombre" name="nombre" placeholder="Nombre Completo" class="form-control input-element"></input>
+                            <input type="email" id="email" name="email" placeholder="Correo Electronico" class="form-control input-element"></input>
+                            <input type="tel" id="telefono" name="telefono" placeholder="Telefono" class="form-control input-element"></input>
+                            <input type="text" id="ciudad" name="ciudad" placeholder="Ciudad" class="form-control input-element"></input>
+                        </div>
+                        <div class="form-group text-center">
+                            <legend class="user-data">Elige Tus Categorias Favoritas</legend>
+                            <input type="checkbox" id="terror" name="terror"></input>
+                            <label for="terror" class="label-class"> Terror</label>
+                            <input type="checkbox" id="comedia" name="comedia"></input>
+                            <label for="comedia" class="label-class"> Comedia</label>
+                            <input type="checkbox" id="suspenso" name="suspenso"></input>
+                            <label for="suspenso" class="label-class"> Suspenso</label>
+                            <input type="checkbox" id="accion" name="accion"></input>
+                            <label for="accion" class="label-class"> Accion</label>
+                            <input type="checkbox" id="infantil" name="infantil"></input>
+                            <label for="infantil" class="label-class"> Infantil</label>
+                        </div>
+                        <div class="text-center">
+                            <legend class="user-data">¿Desea recibir correo de nuestro sitio?</legend>
+                            <input type="radio" id="si" name="si">
+                            <label for="si" class="label-class"> Si</label>
+                            <input type="radio" id="no" name="no">
+                            <label for="no" class="label-class">No</label>
+                        </div>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-primary form-control btn-save">Guardar</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
         </div>
 
     </div> 

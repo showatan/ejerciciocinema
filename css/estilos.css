@@ -104,7 +104,43 @@
 .service-text{
     color: white;
 }
+/* clase para datos de usuario del form*/
+.user-data{
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+}
+/* tamano de elementos de form input*/
+.input-element{
+    width: 100%;
+    height: 28px;
+    padding: 10px;
+    color: white;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 4px 4px 4px 4px;
+    border: none;
+    margin-top: 5px;
+}
+/* clase para etiquetas label*/
+.label-class{
+    color: white;
+    margin-right: 10px;
+    font-size: 13px;
+}
+/* clase para boton guardar del form*/
+.btn-save{
+    background: rgba(8, 45, 94, 0.95);
+    width: 40%;
+    margin-top: 15px;
 
+}
+/* filas mas grandes*/
+.movies-row-last {
+    background: rgba(0, 0, 0, 0.8);
+    min-height: 425px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 /* media queri para pantallas pequenas*/
 @media (max-width: 770px){
     .rigth-column{
